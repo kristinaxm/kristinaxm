@@ -1,0 +1,82 @@
+<svg width="850" height="220" viewBox="0 0 850 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d0c8e8"/>
+      <stop offset="70%" stop-color="#b9c9ff"/>
+      <stop offset="100%" stop-color="#7232B8"/>
+    </linearGradient>
+
+    <filter id="purpleGlow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="850" height="220" rx="18" fill="#0b0910"/>
+
+  <rect x="1" y="1" width="848" height="218" rx="18"
+        fill="none"
+        stroke="#4b435e"
+        stroke-width="2"/>
+
+  <line x1="55" y1="45" x2="200" y2="45"
+        stroke="#7232B8"
+        stroke-width="2"
+        opacity="0.75"/>
+
+  <line x1="650" y1="175" x2="795" y2="175"
+        stroke="#7232B8"
+        stroke-width="2"
+        opacity="0.55"/>
+
+  <text x="55" y="78"
+        fill="#7232B8"
+        font-family="monospace"
+        font-size="14"
+        opacity="0.9">
+    &lt;/&gt;
+  </text>
+
+  <text x="770" y="70"
+        fill="#777092"
+        font-family="monospace"
+        font-size="14">
+    { }
+  </text>
+
+  <text x="425" y="105"
+        text-anchor="middle"
+        fill="url(#titleGradient)"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="38"
+        font-weight="700"
+        letter-spacing="5"
+        filter="url(#purpleGlow)">
+    BACKEND DEVELOPER
+  </text>
+
+  <text x="425" y="140"
+        text-anchor="middle"
+        fill="#d7d1e8"
+        font-family="Georgia, serif"
+        font-size="18"
+        font-style="italic">
+    “Build the backend. Secure the system. Shape the frontend.”
+  </text>
+
+  <text x="425" y="170"
+        text-anchor="middle"
+        fill="#9188ad"
+        font-family="monospace"
+        font-size="13"
+        letter-spacing="2">
+    BACKEND  •  CYBERSECURITY  •  FRONTEND  •  API DEVELOPMENT
+  </text>
+
+  <circle cx="425" cy="194" r="3"
+          fill="#7232B8"
+          filter="url(#purpleGlow)"/>
+</svg>
